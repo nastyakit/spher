@@ -1,10 +1,10 @@
-﻿using System;
+﻿/*using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float speed;
     bool l = false;
@@ -27,7 +27,8 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
                 rb.velocity = new Vector3(0, 5, 0);
         }
-        if (!p) {
+        if (!p)
+        {
             transform.Translate(new Vector3(rand.Next(60) / 10 - 3, rand.Next(30) / 10, rand.Next(60) / 10 - 3) * Time.deltaTime);
         }
         if (Input.GetKeyDown(KeyCode.P))
@@ -52,3 +53,4 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 }
+*/

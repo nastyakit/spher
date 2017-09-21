@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spher-master", "spher-master.csproj", "{4DBC565B-88C0-EB47-68ED-9403F79F7046}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spher-master", "Assembly-CSharp.csproj", "{C64DBEC8-DFDA-BA1B-6A97-8CF4A79751F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DBC565B-88C0-EB47-68ED-9403F79F7046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DBC565B-88C0-EB47-68ED-9403F79F7046}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DBC565B-88C0-EB47-68ED-9403F79F7046}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DBC565B-88C0-EB47-68ED-9403F79F7046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64DBEC8-DFDA-BA1B-6A97-8CF4A79751F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64DBEC8-DFDA-BA1B-6A97-8CF4A79751F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64DBEC8-DFDA-BA1B-6A97-8CF4A79751F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64DBEC8-DFDA-BA1B-6A97-8CF4A79751F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
