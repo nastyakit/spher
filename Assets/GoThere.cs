@@ -7,7 +7,6 @@ using UnityEngine.AI;
 public class GoThere : MonoBehaviour
 {
     public Transform target;
-    public float speed;
     NavMeshAgent agent;
     /*
     void Start()
