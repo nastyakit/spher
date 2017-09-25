@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\AutoGo.cs" />
     <Compile Include="Assets\GoThere.cs" />
+    <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
   </ItemGroup>
