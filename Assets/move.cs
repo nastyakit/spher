@@ -2,14 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
-//using System.Diagnostics;
 using UnityEngine;
 
 public class move : MonoBehaviour
 {
     public Transform EndPoint;
-    //System.Diagnostics.Stopwatch sw = new Stopwatch();
-    //int k = 0;
     bool m = true;
     Vector3 StartPoint;
 
@@ -19,10 +16,6 @@ public class move : MonoBehaviour
     }
 
 	void Update () {
-        //k += 1;
-        //sw.Stop();
-        //if ((sw.ElapsedMilliseconds / 100.0) % 2 == 0) { 
-        //if (k % 2 == 1) {
         if (m==true && transform.position==EndPoint.position)
         {
             m = false;
@@ -32,7 +25,7 @@ public class move : MonoBehaviour
             m = true;
         }
         if (m) {
-            transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, Time.deltaTime/4);
         }
         else {
             transform.position = Vector3.MoveTowards(transform.position, StartPoint, Time.deltaTime);
