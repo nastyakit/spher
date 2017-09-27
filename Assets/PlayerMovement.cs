@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-//Я
+//Я люблю Якушкина
 
 public class PlayerMovement : MonoBehaviour
 {
