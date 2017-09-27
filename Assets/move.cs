@@ -25,10 +25,10 @@ public class move : MonoBehaviour
             m = true;
         }
         if (m) {
-            transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, Time.deltaTime / 3);
+            transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, Time.deltaTime / 2);
         }
         else {
-            transform.position = Vector3.MoveTowards(transform.position, StartPoint, Time.deltaTime / 3);
+            transform.position = Vector3.MoveTowards(transform.position, StartPoint, Time.deltaTime / 2);
         }
     }
 }

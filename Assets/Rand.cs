@@ -17,18 +17,9 @@ public class Rand : MonoBehaviour
 	
 	void Update ()
     {
-        //if (enter == false)
-        //    StartCoroutine(your_timer());
         if (Global.test == 2)
         { 
-            transform.position = new Vector3(rand.Next(8) - 4, 1, rand.Next(8) - 2);
+            transform.position = new Vector3(rand.Next(6) - 3, 1, rand.Next(6) - 1);
         }
     }
-    /*
-    IEnumerator your_timer()
-    {
-        enter = true;
-        yield return new WaitForSeconds(20);
-        enter = false;
-    }*/
 }

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
+//Я
+
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
