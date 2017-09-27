@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-//Я люблю Якушкина
-
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;

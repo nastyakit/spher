@@ -24,13 +24,6 @@ public class GoThere : MonoBehaviour
     {
         me = transform.position;
 
-        /*
-        if (Vector3.Distance(me, new Vector3(-1, 2, 1)) >= 1) {
-            Global.test = 2;
-            transform.position = new Vector3(0, 1, 0);
-        }
-        */
-
         neme = GameObject.Find("target").transform.position;
         if (Vector3.Distance(me, neme) <= 0.5)
         {
