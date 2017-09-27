@@ -3,26 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+public class Global
+{
+    public static int test;
+
+}
 
 public class GoThere : MonoBehaviour
 {
     public Transform target;
     NavMeshAgent agent;
-    Vector3 ta;
+    Vector3 me, neme;
 
     void Start()
     {
-        //agent = GetComponent<NavMeshAgent>();
-        var to = GameObject.Find("target").transform.position;
-        //var p = new NavMeshPath();
-        //var x = agent.CalculatePath(to, p);
-
-        ta = to;
+        DontDestroyOnLoad(this);
     }
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, ta, Time.deltaTime * 2);
-        //agent.Move(ta);
+        me = transform.position;
+        neme = GameObject.Find("target").transform.position;
+        if (Vector3.Distance(me, neme) <= 0.5)
+        {
+            Global.test = 2;
+        }
+        else
+        {
+            Global.test = 1;
+        }
+        transform.position = Vector3.MoveTowards(me, neme, Time.deltaTime * 2);
     }
 }
